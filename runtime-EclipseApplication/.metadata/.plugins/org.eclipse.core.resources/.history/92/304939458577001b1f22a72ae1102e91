@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trafficlight:StateMachine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trafficlight="http://www.mydsl.no/trafficlight/1.0" name="TrafficLightStateMachine">
+  <transitions name="Green-to-Yellow">
+    <timer time="15"/>
+  </transitions>
+  <transitions name="Yellow-to-Red">
+    <timer time="5"/>
+  </transitions>
+  <transitions name="Red-toYellow">
+    <timer time="15"/>
+  </transitions>
+  <transitions name="Yellow-to-Green">
+    <timer time="5"/>
+  </transitions>
+  <states name="Red"/>
+  <states name="Yellow"/>
+  <states name="Green"/>
+</trafficlight:StateMachine>
