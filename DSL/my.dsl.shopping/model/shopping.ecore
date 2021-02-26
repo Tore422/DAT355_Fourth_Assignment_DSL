@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="shopping" nsURI="http://www.mydsl.no/shopping/1.0" nsPrefix="shopping">
+  <eClassifiers xsi:type="ecore:EClass" name="Transition" eSuperTypes="#//NamedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" lowerBound="1"
+        eType="#//State" eOpposite="#//State/incomming"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" lowerBound="1"
+        eType="#//State" eOpposite="#//State/outgoing"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="adding" lowerBound="1"
+        eType="#//AddingItemEvent" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subtracting" lowerBound="1"
+        eType="#//RemovingItemEvent" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="paying" lowerBound="1"
+        eType="#//TransactionEvent" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="State" eSuperTypes="#//NamedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="incomming" upperBound="-1"
+        eType="#//Transition" eOpposite="#//Transition/target"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outgoing" upperBound="-1"
+        eType="#//Transition" eOpposite="#//Transition/source"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NamedElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="StateMachine" eSuperTypes="#//NamedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="start" lowerBound="1" eType="#//State"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="states" upperBound="-1"
+        eType="#//State" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="transitions" upperBound="-1"
+        eType="#//Transition" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AddingItemEvent">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="number" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RemovingItemEvent">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="number" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TransactionEvent">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sum" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+</ecore:EPackage>

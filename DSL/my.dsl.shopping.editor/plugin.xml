@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated shopping -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="my.dsl.shopping.presentation.ShoppingModelWizardID"
+            name="%_UI_ShoppingModelWizard_label"
+            class="my.dsl.shopping.presentation.ShoppingModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ShoppingModelFile.gif">
+         <description>%_UI_ShoppingModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated shopping -->
+      <editor
+            id="my.dsl.shopping.presentation.ShoppingEditorID"
+            name="%_UI_ShoppingEditor_label"
+            icon="icons/full/obj16/ShoppingModelFile.gif"
+            extensions="shopping"
+            class="my.dsl.shopping.presentation.ShoppingEditor"
+            contributorClass="my.dsl.shopping.presentation.ShoppingActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
