@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="trafficlight" version="12.0.0.2017041100">
+  <ownedViewpoints name="Trafficlight" modelFileExtension="trafficlight">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Trafficlight Diagram" domainClass="trafficlight::StateMachine" enablePopupBars="true">
+      <metamodel href="http://www.mydsl.no/trafficlight/1.0#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="TD_StateMachine" semanticCandidatesExpression="feature:states" domainClass="trafficlight::StateMachine">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/my.dsl.trafficlight.design/icons/G.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="my.dsl.trafficlight.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
