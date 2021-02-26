@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shopping:StateMachine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:shopping="http://www.mydsl.no/shopping/1.0" name="Shopping cart">
+  <states name="empty"/>
+  <states name="nonempty"/>
+  <states name="paid"/>
+  <transitions name="empty-to-nonempty">
+    <adding number="1"/>
+  </transitions>
+  <transitions name="nonempty-to-empty">
+    <subtracting number="1"/>
+  </transitions>
+  <transitions name="nonempty-to-paid">
+    <paying sum="1"/>
+  </transitions>
+  <transitions name="paid-to-empty"/>
+</shopping:StateMachine>

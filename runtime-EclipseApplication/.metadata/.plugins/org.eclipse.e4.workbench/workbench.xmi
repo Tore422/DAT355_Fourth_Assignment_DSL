@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_m56KsHeAEeujlsuPjQAN0A" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_m56KsXeAEeujlsuPjQAN0A" bindingContexts="_m56KuneAEeujlsuPjQAN0A">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;G.svg&quot; tooltip=&quot;my.dsl.trafficlight.design/G.svg&quot;>&#xD;&#xA;&lt;persistable path=&quot;/my.dsl.trafficlight.design/G.svg&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;Trafficlight Diagram&quot; tooltip=&quot;platform:/resource/trafficlight-test/representations.aird/Trafficlight Diagram&quot;>&#xD;&#xA;&lt;persistable REP_DESC_URI=&quot;platform:/resource/trafficlight-test/representations.aird#_-ovocHeJEeujlsuPjQAN0A&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/trafficlight-test/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;Trafficlight Diagram&quot; uri=&quot;platform:/resource/trafficlight-test/representations.aird#_-pMUYXeJEeujlsuPjQAN0A&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.ui.editor.session&quot; name=&quot;representations.aird&quot; tooltip=&quot;trafficlight-test/representations.aird&quot;>&#xD;&#xA;&lt;persistable path=&quot;/trafficlight-test/representations.aird&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;my.dsl.trafficlight.presentation.TrafficlightEditorID&quot; name=&quot;test.trafficlight&quot; tooltip=&quot;trafficlight-test/test.trafficlight&quot;>&#xD;&#xA;&lt;persistable path=&quot;/trafficlight-test/test.trafficlight&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.editor.editorPlugin.SiriusEditorID&quot; name=&quot;trafficlight.odesign&quot; tooltip=&quot;my.dsl.trafficlight.design/description/trafficlight.odesign&quot;>&#xD;&#xA;&lt;persistable path=&quot;/my.dsl.trafficlight.design/description/trafficlight.odesign&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;Main CarEngineIgnition Diagram.jpg&quot; tooltip=&quot;engineignition/Main CarEngineIgnition Diagram.jpg&quot;>&#xD;&#xA;&lt;persistable path=&quot;/engineignition/Main CarEngineIgnition Diagram.jpg&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.pde.ui.manifestEditor&quot; name=&quot;MANIFEST.MF&quot; tooltip=&quot;my.dsl.engineignition.design/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;persistable path=&quot;/my.dsl.engineignition.design/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Services.java&quot; tooltip=&quot;my.dsl.engineignition.design/src/my/dsl/engineignition/design/Services.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/my.dsl.engineignition.design/src/my/dsl/engineignition/design/Services.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;Trafficlight Diagram.jpg&quot; tooltip=&quot;trafficlight-test/Trafficlight Diagram.jpg&quot;>&#xD;&#xA;&lt;persistable path=&quot;/trafficlight-test/Trafficlight Diagram.jpg&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;Trafficlight Diagram&quot; tooltip=&quot;platform:/resource/trafficlight-test/representations.aird/Trafficlight Diagram&quot;>&#xD;&#xA;&lt;persistable REP_DESC_URI=&quot;platform:/resource/trafficlight-test/representations.aird#_-ovocHeJEeujlsuPjQAN0A&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/trafficlight-test/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;Trafficlight Diagram&quot; uri=&quot;platform:/resource/trafficlight-test/representations.aird#_-pMUYXeJEeujlsuPjQAN0A&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;Main CarEngineIgnition Diagram&quot; tooltip=&quot;platform:/resource/engineignition/representations.aird/Main CarEngineIgnition Diagram&quot;>&#xD;&#xA;&lt;persistable REP_DESC_URI=&quot;platform:/resource/engineignition/representations.aird#_eF6WgXglEeuntJ0DrKityw&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/engineignition/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;Main CarEngineIgnition Diagram&quot; uri=&quot;platform:/resource/engineignition/representations.aird#_eGDgcXglEeuntJ0DrKityw&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;my.dsl.engineignition.presentation.EngineignitionEditorID&quot; name=&quot;test.engineignition&quot; tooltip=&quot;engineignition/test.engineignition&quot;>&#xD;&#xA;&lt;persistable path=&quot;/engineignition/test.engineignition&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.editor.editorPlugin.SiriusEditorID&quot; name=&quot;engineignition.odesign&quot; tooltip=&quot;my.dsl.engineignition.design/description/engineignition.odesign&quot;>&#xD;&#xA;&lt;persistable path=&quot;/my.dsl.engineignition.design/description/engineignition.odesign&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Services.java&quot; tooltip=&quot;my.dsl.trafficlight.design/src/my/dsl/trafficlight/design/Services.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/my.dsl.trafficlight.design/src/my/dsl/trafficlight/design/Services.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.pde.ui.manifestEditor&quot; name=&quot;MANIFEST.MF&quot; tooltip=&quot;my.dsl.trafficlight.design/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;persistable path=&quot;/my.dsl.trafficlight.design/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.editor.editorPlugin.SiriusEditorID&quot; name=&quot;trafficlight.odesign&quot; tooltip=&quot;my.dsl.trafficlight.design/description/trafficlight.odesign&quot;>&#xD;&#xA;&lt;persistable path=&quot;/my.dsl.trafficlight.design/description/trafficlight.odesign&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;Green.png&quot; tooltip=&quot;my.dsl.trafficlight.design/trafficlight_icons/Green.png&quot;>&#xD;&#xA;&lt;persistable path=&quot;/my.dsl.trafficlight.design/trafficlight_icons/Green.png&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;my.dsl.trafficlight.presentation.TrafficlightEditorID&quot; name=&quot;test.trafficlight&quot; tooltip=&quot;trafficlight-test/test.trafficlight&quot;>&#xD;&#xA;&lt;persistable path=&quot;/trafficlight-test/test.trafficlight&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;my.dsl.shopping.presentation.ShoppingEditorID&quot; name=&quot;test.shopping&quot; tooltip=&quot;shopping/test.shopping&quot;>&#xD;&#xA;&lt;persistable path=&quot;/shopping/test.shopping&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.ui.editor.session&quot; name=&quot;representations.aird&quot; tooltip=&quot;shopping/representations.aird&quot;>&#xD;&#xA;&lt;persistable path=&quot;/shopping/representations.aird&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;G.svg&quot; tooltip=&quot;my.dsl.trafficlight.design/G.svg&quot;>&#xD;&#xA;&lt;persistable path=&quot;/my.dsl.trafficlight.design/G.svg&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.ui.editor.session&quot; name=&quot;representations.aird&quot; tooltip=&quot;trafficlight-test/representations.aird&quot;>&#xD;&#xA;&lt;persistable path=&quot;/trafficlight-test/representations.aird&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_m56KsXeAEeujlsuPjQAN0A" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_nShfAHeAEeujlsuPjQAN0A" label="%trimmedwindow.label.eclipseSDK" x="182" y="182" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
@@ -90,7 +90,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_nhERXXeAEeujlsuPjQAN0A" containerData="7400" selectedElement="_nhERYneAEeujlsuPjQAN0A">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_nhERXXeAEeujlsuPjQAN0A" containerData="7400" selectedElement="_nhERXneAEeujlsuPjQAN0A">
               <children xsi:type="basic:PartSashContainer" xmi:id="_nhERXneAEeujlsuPjQAN0A" containerData="6600" selectedElement="_nhERYXeAEeujlsuPjQAN0A" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_nhERX3eAEeujlsuPjQAN0A" elementId="org.eclipse.gef.ui.palette_viewMStack" toBeRendered="false" containerData="1600">
                   <children xsi:type="advanced:Placeholder" xmi:id="_nhERYHeAEeujlsuPjQAN0A" elementId="org.eclipse.gef.ui.palette_view" toBeRendered="false" ref="_nhBOAHeAEeujlsuPjQAN0A" closeable="true">
@@ -102,12 +102,16 @@
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_nhERYneAEeujlsuPjQAN0A" elementId="bottomRight" containerData="3400" selectedElement="_nhERZHeAEeujlsuPjQAN0A">
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
-                <tags>active</tags>
+                <tags>General</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_nhERY3eAEeujlsuPjQAN0A" elementId="org.eclipse.ui.views.TaskList" ref="_ng-xwHeAEeujlsuPjQAN0A" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
                 </children>
                 <children xsi:type="advanced:Placeholder" xmi:id="_nhERZHeAEeujlsuPjQAN0A" elementId="org.eclipse.ui.views.PropertySheet" ref="_nhCcIHeAEeujlsuPjQAN0A" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_lJSYMXhdEeuR6tp4IywyKA" elementId="org.eclipse.ui.views.PropertySheet:1614362888497" toBeRendered="false" ref="_lJSYMHhdEeuR6tp4IywyKA" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
                 </children>
@@ -157,25 +161,40 @@
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_ngx9cHeAEeujlsuPjQAN0A" elementId="org.eclipse.ui.editorss" selectedElement="__cojgHeJEeujlsuPjQAN0A">
       <children xsi:type="basic:PartSashContainer" xmi:id="__cojgHeJEeujlsuPjQAN0A" selectedElement="_ngx9cXeAEeujlsuPjQAN0A" horizontal="true">
-        <children xsi:type="basic:PartStack" xmi:id="_ngx9cXeAEeujlsuPjQAN0A" elementId="org.eclipse.e4.primaryDataStack" containerData="5000" selectedElement="_Wx12wHeHEeujlsuPjQAN0A">
+        <children xsi:type="basic:PartStack" xmi:id="_ngx9cXeAEeujlsuPjQAN0A" elementId="org.eclipse.e4.primaryDataStack" containerData="5000" selectedElement="_8h-FwHgkEeuntJ0DrKityw">
           <tags>org.eclipse.e4.primaryDataStack</tags>
           <tags>EditorStack</tags>
+          <tags>active</tags>
           <children xsi:type="basic:Part" xmi:id="_7JhpMHeBEeujlsuPjQAN0A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="test.trafficlight" iconURI="platform:/plugin/my.dsl.trafficlight.editor/icons/full/obj16/TrafficlightModelFile.gif" closeable="true">
             <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;my.dsl.trafficlight.presentation.TrafficlightEditorID&quot; name=&quot;test.trafficlight&quot; partName=&quot;test.trafficlight&quot; title=&quot;test.trafficlight&quot; tooltip=&quot;trafficlight-test/test.trafficlight&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/trafficlight-test/test.trafficlight&quot;/>&#xD;&#xA;&lt;/editor>"/>
             <tags>Editor</tags>
             <tags>removeOnHide</tags>
             <tags>my.dsl.trafficlight.presentation.TrafficlightEditorID</tags>
           </children>
-          <children xsi:type="basic:Part" xmi:id="_Wx12wHeHEeujlsuPjQAN0A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="trafficlight.odesign" iconURI="platform:/plugin/org.eclipse.sirius.editor/icons/full/obj16/file_odesign.gif" closeable="true">
+          <children xsi:type="basic:Part" xmi:id="_fbZ34HgnEeuntJ0DrKityw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="trafficlight.odesign" iconURI="platform:/plugin/org.eclipse.sirius.editor/icons/full/obj16/file_odesign.gif" closeable="true">
             <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.sirius.editor.editorPlugin.SiriusEditorID&quot; name=&quot;trafficlight.odesign&quot; partName=&quot;trafficlight.odesign&quot; title=&quot;trafficlight.odesign&quot; tooltip=&quot;my.dsl.trafficlight.design/description/trafficlight.odesign&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/my.dsl.trafficlight.design/description/trafficlight.odesign&quot;/>&#xD;&#xA;&lt;/editor>"/>
             <tags>Editor</tags>
             <tags>removeOnHide</tags>
             <tags>org.eclipse.sirius.editor.editorPlugin.SiriusEditorID</tags>
           </children>
+          <children xsi:type="basic:Part" xmi:id="_HJaF4HgiEeuUQ_xe64yO7A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="test.engineignition" iconURI="platform:/plugin/my.dsl.engineignition.editor/icons/full/obj16/EngineignitionModelFile.gif" closeable="true">
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;my.dsl.engineignition.presentation.EngineignitionEditorID&quot; name=&quot;test.engineignition&quot; partName=&quot;test.engineignition&quot; title=&quot;test.engineignition&quot; tooltip=&quot;engineignition/test.engineignition&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/engineignition/test.engineignition&quot;/>&#xD;&#xA;&lt;/editor>"/>
+            <tags>Editor</tags>
+            <tags>removeOnHide</tags>
+            <tags>my.dsl.engineignition.presentation.EngineignitionEditorID</tags>
+          </children>
+          <children xsi:type="basic:Part" xmi:id="_8h-FwHgkEeuntJ0DrKityw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="engineignition.odesign" iconURI="platform:/plugin/org.eclipse.sirius.editor/icons/full/obj16/file_odesign.gif" closeable="true">
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.sirius.editor.editorPlugin.SiriusEditorID&quot; name=&quot;engineignition.odesign&quot; partName=&quot;engineignition.odesign&quot; title=&quot;engineignition.odesign&quot; tooltip=&quot;my.dsl.engineignition.design/description/engineignition.odesign&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/my.dsl.engineignition.design/description/engineignition.odesign&quot;/>&#xD;&#xA;&lt;/editor>"/>
+            <tags>Editor</tags>
+            <tags>removeOnHide</tags>
+            <tags>org.eclipse.sirius.editor.editorPlugin.SiriusEditorID</tags>
+            <tags>active</tags>
+            <tags>activeOnClose</tags>
+          </children>
         </children>
-        <children xsi:type="basic:PartStack" xmi:id="__cojgXeJEeujlsuPjQAN0A" elementId="PartStack@2f5c6eb9" containerData="5000" selectedElement="_-qQEUHeJEeujlsuPjQAN0A">
-          <children xsi:type="basic:Part" xmi:id="_-qQEUHeJEeujlsuPjQAN0A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Trafficlight Diagram" iconURI="platform:/plugin/org.eclipse.sirius.diagram.ui/icons/DDiagram.gif" closeable="true">
-            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;Trafficlight Diagram&quot; partName=&quot;Trafficlight Diagram&quot; title=&quot;Trafficlight Diagram&quot; tooltip=&quot;platform:/resource/trafficlight-test/representations.aird/Trafficlight Diagram&quot;>&#xD;&#xA;&lt;input REP_DESC_URI=&quot;platform:/resource/trafficlight-test/representations.aird#_-ovocHeJEeujlsuPjQAN0A&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/trafficlight-test/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; name=&quot;Trafficlight Diagram&quot; uri=&quot;platform:/resource/trafficlight-test/representations.aird#_-pMUYXeJEeujlsuPjQAN0A&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:PartStack" xmi:id="__cojgXeJEeujlsuPjQAN0A" elementId="PartStack@2f5c6eb9" containerData="5000" selectedElement="_GkLUQHhWEeuR6tp4IywyKA">
+          <children xsi:type="basic:Part" xmi:id="_GkLUQHhWEeuR6tp4IywyKA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Main CarEngineIgnition Diagram" iconURI="platform:/plugin/org.eclipse.sirius.diagram.ui/icons/DDiagram.gif" closeable="true">
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;Main CarEngineIgnition Diagram&quot; partName=&quot;Main CarEngineIgnition Diagram&quot; title=&quot;Main CarEngineIgnition Diagram&quot; tooltip=&quot;platform:/resource/engineignition/representations.aird/Main CarEngineIgnition Diagram&quot;>&#xD;&#xA;&lt;input REP_DESC_URI=&quot;platform:/resource/engineignition/representations.aird#_eF6WgXglEeuntJ0DrKityw&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/engineignition/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; name=&quot;Main CarEngineIgnition Diagram&quot; uri=&quot;platform:/resource/engineignition/representations.aird#_eGDgcXglEeuntJ0DrKityw&quot;/>&#xD;&#xA;&lt;/editor>"/>
             <tags>Editor</tags>
             <tags>removeOnHide</tags>
             <tags>org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID</tags>
@@ -255,8 +274,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_-QgoQHeBEeujlsuPjQAN0A" elementId="org.eclipse.ui.views.PropertySheet">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -275,6 +292,18 @@
       <tags>View</tags>
       <tags>categoryTag:Ant</tags>
     </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_lJSYMHhdEeuR6tp4IywyKA" elementId="org.eclipse.ui.views.PropertySheet:1614362888497" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/prop_ps.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.views"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.views.properties.PropertySheet"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+      <menus xmi:id="_lJXQsHhdEeuR6tp4IywyKA" elementId="org.eclipse.ui.views.PropertySheet">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_lJXQsXhdEeuR6tp4IywyKA" elementId="org.eclipse.ui.views.PropertySheet" visible="false"/>
+    </sharedElements>
     <trimBars xmi:id="_m56KsneAEeujlsuPjQAN0A" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.platform">
       <children xsi:type="menu:ToolBar" xmi:id="_nWMeEHeAEeujlsuPjQAN0A" elementId="group.file" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -282,7 +311,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nWNsMHeAEeujlsuPjQAN0A" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_nWVoAHeAEeujlsuPjQAN0A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_m6s0_HeAEeujlsuPjQAN0A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_LxluIHhzEeucaMy1qfoX0A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_m6s0_HeAEeujlsuPjQAN0A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nWNsMXeAEeujlsuPjQAN0A" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -301,13 +330,16 @@
       <children xsi:type="menu:ToolBar" xmi:id="_niEW4HeAEeujlsuPjQAN0A" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
       </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ZyKrkHg0EeuKP9zPu-znJQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
+        <tags>Draggable</tags>
+      </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nWOTQ3eAEeujlsuPjQAN0A" elementId="group.nav" toBeRendered="false">
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_nWOTRHeAEeujlsuPjQAN0A" elementId="group.nav" toBeRendered="false"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nWOTRXeAEeujlsuPjQAN0A" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_nWW2IHeAEeujlsuPjQAN0A" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_m6sN3HeAEeujlsuPjQAN0A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Lxp_kHhzEeucaMy1qfoX0A" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_m6sN3HeAEeujlsuPjQAN0A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nWO6UHeAEeujlsuPjQAN0A" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2730,7 +2762,7 @@
   <addons xmi:id="_m56KxneAEeujlsuPjQAN0A" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_m56Kx3eAEeujlsuPjQAN0A" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_m6INIHeAEeujlsuPjQAN0A" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_LUjM0HhzEeucaMy1qfoX0A" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_m6hOsHeAEeujlsuPjQAN0A" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_m6hOsXeAEeujlsuPjQAN0A" elementId="org.eclipse.mylyn.wikitext.ui.editor.category" name="WikiText Markup Editing Commands" description="commands for editing lightweight markup"/>

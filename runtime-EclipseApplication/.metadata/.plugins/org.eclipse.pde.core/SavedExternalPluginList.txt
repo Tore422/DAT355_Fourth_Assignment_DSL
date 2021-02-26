@@ -1,4 +1,4 @@
-# List of external plug-in models previously loaded. Timestamp: 1614302324678
+# List of external plug-in models previously loaded. Timestamp: 1614372177342
 file:/C:/programming_stuff/Eclipse/eclipse-modeling-2020-12-R-win32-x86_64/eclipse/plugins/com.atlassian.commonmark_0.15.1.v20200707-1444.jar
 file:/C:/programming_stuff/Eclipse/eclipse-modeling-2020-12-R-win32-x86_64/eclipse/plugins/com.atlassian.commonmark-gfm-strikethrough_0.15.1.v20200707-1444.jar
 file:/C:/programming_stuff/Eclipse/eclipse-modeling-2020-12-R-win32-x86_64/eclipse/plugins/com.atlassian.commonmark-gfm-tables_0.15.1.v20200707-1444.jar
@@ -34,7 +34,9 @@ file:/C:/programming_stuff/Eclipse/eclipse-modeling-2020-12-R-win32-x86_64/eclip
 file:/C:/programming_stuff/Eclipse/eclipse-modeling-2020-12-R-win32-x86_64/eclipse/plugins/javax.xml.bind_2.2.0.v201105210648.jar
 file:/C:/programming_stuff/Eclipse/eclipse-modeling-2020-12-R-win32-x86_64/eclipse/plugins/javax.xml.stream_1.0.1.v201004272200.jar
 file:/C:/programming_stuff/Eclipse/eclipse-modeling-2020-12-R-win32-x86_64/eclipse/plugins/lpg.runtime.java_2.0.17.v201004271640.jar
-file:/C:/Users/tore4/eclipse-workspace/DAT355/Assignment4/DSL/my.dsl.courseregistration/
+file:/C:/Users/tore4/eclipse-workspace/DAT355/Assignment4/DSL/my.dsl.engineignition/
+file:/C:/Users/tore4/eclipse-workspace/DAT355/Assignment4/DSL/my.dsl.engineignition.edit/
+file:/C:/Users/tore4/eclipse-workspace/DAT355/Assignment4/DSL/my.dsl.engineignition.editor/
 file:/C:/Users/tore4/eclipse-workspace/DAT355/Assignment4/DSL/my.dsl.shopping/
 file:/C:/Users/tore4/eclipse-workspace/DAT355/Assignment4/DSL/my.dsl.shopping.edit/
 file:/C:/Users/tore4/eclipse-workspace/DAT355/Assignment4/DSL/my.dsl.shopping.editor/

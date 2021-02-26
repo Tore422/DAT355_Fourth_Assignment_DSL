@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<trafficlight:StateMachine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:trafficlight="http://www.mydsl.no/trafficlight/1.0" name="TrafficLightStateMachine">
-  <transitions name="green-to-yellow">
+<trafficlight:StateMachine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:trafficlight="http://www.mydsl.no/trafficlight/1.0" name="TrafficLightStateMachine">
+  <transitions name="green-to-yellow" source="//@states.0" target="//@states.2">
     <timer time="15"/>
   </transitions>
-  <transitions name="yellow-to-red">
+  <transitions name="yellow-to-red" source="//@states.2" target="//@states.1">
     <timer time="5"/>
   </transitions>
-  <transitions name="red-to-green">
+  <transitions name="red-to-green" source="//@states.1" target="//@states.0">
     <timer time="20"/>
   </transitions>
-  <states name="red"/>
-  <states name="yellow"/>
-  <states name="green"/>
+  <states xsi:type="trafficlight:Green" name="green" outgoing="//@transitions.0" incoming="//@transitions.2"/>
+  <states xsi:type="trafficlight:Red" name="red" outgoing="//@transitions.2" incoming="//@transitions.1"/>
+  <states xsi:type="trafficlight:Yellow" name="yellow" outgoing="//@transitions.1" incoming="//@transitions.0"/>
 </trafficlight:StateMachine>

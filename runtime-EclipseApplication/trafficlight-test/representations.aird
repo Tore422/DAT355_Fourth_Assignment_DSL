@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:trafficlight="http://www.mydsl.no/trafficlight/1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:trafficlight="http://www.mydsl.no/trafficlight/1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
   <viewpoint:DAnalysis uid="_hlJQAHeBEeujlsuPjQAN0A" selectedViews="_96y9UHeJEeujlsuPjQAN0A" version="14.3.1.202003261200">
     <semanticResources>test.trafficlight</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_96y9UHeJEeujlsuPjQAN0A">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_-ovocHeJEeujlsuPjQAN0A" name="Trafficlight Diagram" repPath="#_-oS8gHeJEeujlsuPjQAN0A" changeId="bc3638ef-3771-4962-a892-43e1e94dd8e8">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_-ovocHeJEeujlsuPjQAN0A" name="Trafficlight Diagram" repPath="#_-oS8gHeJEeujlsuPjQAN0A" changeId="d657e551-3779-4da1-a2c6-daa4f5fffb6e">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']"/>
         <target xmi:type="trafficlight:StateMachine" href="test.trafficlight#/"/>
       </ownedRepresentationDescriptors>
@@ -13,12 +13,318 @@
   <diagram:DSemanticDiagram uid="_-oS8gHeJEeujlsuPjQAN0A">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_-pMUYHeJEeujlsuPjQAN0A" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="_-pMUYXeJEeujlsuPjQAN0A" type="Sirius" element="_-oS8gHeJEeujlsuPjQAN0A" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_YbVHYHgnEeuntJ0DrKityw" visible="false" type="2001" element="_YaTMpHgnEeuntJ0DrKityw">
+          <children xmi:type="notation:Node" xmi:id="_YbVucHgnEeuntJ0DrKityw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YbVucXgnEeuntJ0DrKityw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ti328HgpEeuKP9zPu-znJQ" type="3005" element="_th-fEHgpEeuKP9zPu-znJQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ti328XgpEeuKP9zPu-znJQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ti328ngpEeuKP9zPu-znJQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_YbVHYXgnEeuntJ0DrKityw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YbVHYngnEeuntJ0DrKityw" x="80" y="30" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_YbWVgHgnEeuntJ0DrKityw" visible="false" type="2001" element="_YaTzsHgnEeuntJ0DrKityw">
+          <children xmi:type="notation:Node" xmi:id="_YbWVg3gnEeuntJ0DrKityw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YbWVhHgnEeuntJ0DrKityw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ti5FEHgpEeuKP9zPu-znJQ" type="3005" element="_tiFz0HgpEeuKP9zPu-znJQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ti5sIHgpEeuKP9zPu-znJQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ti5sIXgpEeuKP9zPu-znJQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_YbWVgXgnEeuntJ0DrKityw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YbWVgngnEeuntJ0DrKityw" x="225" y="30" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_YbW8kHgnEeuntJ0DrKityw" visible="false" type="2001" element="_YaUawHgnEeuntJ0DrKityw">
+          <children xmi:type="notation:Node" xmi:id="_YbW8k3gnEeuntJ0DrKityw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YbW8lHgnEeuntJ0DrKityw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ti5sIngpEeuKP9zPu-znJQ" type="3005" element="_tiJeMHgpEeuKP9zPu-znJQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ti5sI3gpEeuKP9zPu-znJQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ti5sJHgpEeuKP9zPu-znJQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_YbW8kXgnEeuntJ0DrKityw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YbW8kngnEeuntJ0DrKityw" x="340" y="30" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ZF7uUHhNEeuR6tp4IywyKA" visible="false" type="2001" element="_ZEcgknhNEeuR6tp4IywyKA">
+          <children xmi:type="notation:Node" xmi:id="_ZF8VYHhNEeuR6tp4IywyKA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ZF8VYXhNEeuR6tp4IywyKA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZGOCMHhNEeuR6tp4IywyKA" type="3005" element="_ZEiAIHhNEeuR6tp4IywyKA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZGOCMXhNEeuR6tp4IywyKA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZGOCMnhNEeuR6tp4IywyKA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ZF7uUXhNEeuR6tp4IywyKA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZF7uUnhNEeuR6tp4IywyKA" x="125" y="85" width="26" height="26"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ZF8VYnhNEeuR6tp4IywyKA" visible="false" type="2001" element="_ZEinMXhNEeuR6tp4IywyKA">
+          <children xmi:type="notation:Node" xmi:id="_ZF88cHhNEeuR6tp4IywyKA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ZF88cXhNEeuR6tp4IywyKA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZGOpQHhNEeuR6tp4IywyKA" type="3005" element="_ZEpU4HhNEeuR6tp4IywyKA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZGOpQXhNEeuR6tp4IywyKA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZGOpQnhNEeuR6tp4IywyKA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ZF8VY3hNEeuR6tp4IywyKA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZF8VZHhNEeuR6tp4IywyKA" x="100" y="140" width="26" height="26"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ZF-xoHhNEeuR6tp4IywyKA" visible="false" type="2001" element="_ZEp78HhNEeuR6tp4IywyKA">
+          <children xmi:type="notation:Node" xmi:id="_ZGE4QHhNEeuR6tp4IywyKA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ZGE4QXhNEeuR6tp4IywyKA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZGP3YHhNEeuR6tp4IywyKA" type="3005" element="_ZFlwEHhNEeuR6tp4IywyKA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZGP3YXhNEeuR6tp4IywyKA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZGP3YnhNEeuR6tp4IywyKA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ZF_YsHhNEeuR6tp4IywyKA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZF_YsXhNEeuR6tp4IywyKA" x="25" y="120" width="26" height="26"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_n66eMHhQEeuR6tp4IywyKA" visible="false" type="2001" element="_n6SMEXhQEeuR6tp4IywyKA">
+          <children xmi:type="notation:Node" xmi:id="_n67FQHhQEeuR6tp4IywyKA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_n67FQXhQEeuR6tp4IywyKA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_n66eMXhQEeuR6tp4IywyKA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n66eMnhQEeuR6tp4IywyKA" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_n67FQnhQEeuR6tp4IywyKA" visible="false" type="2001" element="_n6SMEnhQEeuR6tp4IywyKA">
+          <children xmi:type="notation:Node" xmi:id="_n67FRXhQEeuR6tp4IywyKA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_n67FRnhQEeuR6tp4IywyKA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_n67FQ3hQEeuR6tp4IywyKA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n67FRHhQEeuR6tp4IywyKA" y="80" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_n67FR3hQEeuR6tp4IywyKA" visible="false" type="2001" element="_n6SzIHhQEeuR6tp4IywyKA">
+          <children xmi:type="notation:Node" xmi:id="_n67sUnhQEeuR6tp4IywyKA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_n67sU3hQEeuR6tp4IywyKA" y="5"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_n67sUHhQEeuR6tp4IywyKA" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n67sUXhQEeuR6tp4IywyKA" y="160" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_TSl9EHhVEeuR6tp4IywyKA" type="2001" element="_TScMEHhVEeuR6tp4IywyKA">
+          <children xmi:type="notation:Node" xmi:id="_TSl9E3hVEeuR6tp4IywyKA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TSl9FHhVEeuR6tp4IywyKA" y="-22"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TSoZUHhVEeuR6tp4IywyKA" type="3005" element="_TScMEXhVEeuR6tp4IywyKA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TSoZUXhVEeuR6tp4IywyKA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSoZUnhVEeuR6tp4IywyKA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_TSl9EXhVEeuR6tp4IywyKA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSl9EnhVEeuR6tp4IywyKA" x="140" y="5" width="26" height="26"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_TSmkIHhVEeuR6tp4IywyKA" type="2001" element="_TSdaMHhVEeuR6tp4IywyKA">
+          <children xmi:type="notation:Node" xmi:id="_TSnLMHhVEeuR6tp4IywyKA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TSnLMXhVEeuR6tp4IywyKA" x="27" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TSoZU3hVEeuR6tp4IywyKA" type="3005" element="_TSdaMXhVEeuR6tp4IywyKA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TSoZVHhVEeuR6tp4IywyKA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSoZVXhVEeuR6tp4IywyKA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_TSmkIXhVEeuR6tp4IywyKA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSmkInhVEeuR6tp4IywyKA" x="225" y="115" width="26" height="26"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_TSnLMnhVEeuR6tp4IywyKA" type="2001" element="_TSeBQXhVEeuR6tp4IywyKA">
+          <children xmi:type="notation:Node" xmi:id="_TSnyQHhVEeuR6tp4IywyKA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TSnyQXhVEeuR6tp4IywyKA" x="27" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TSoZVnhVEeuR6tp4IywyKA" type="3005" element="_TSeoUHhVEeuR6tp4IywyKA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TSoZV3hVEeuR6tp4IywyKA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSoZWHhVEeuR6tp4IywyKA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_TSnLM3hVEeuR6tp4IywyKA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSnLNHhVEeuR6tp4IywyKA" x="140" y="245" width="26" height="26"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_-pMUYneJEeujlsuPjQAN0A"/>
+        <edges xmi:type="notation:Edge" xmi:id="_TSpAYHhVEeuR6tp4IywyKA" type="4001" element="_TSfPYHhVEeuR6tp4IywyKA" source="_TSl9EHhVEeuR6tp4IywyKA" target="_TSnLMnhVEeuR6tp4IywyKA">
+          <children xmi:type="notation:Node" xmi:id="_TSpncHhVEeuR6tp4IywyKA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSpncXhVEeuR6tp4IywyKA" x="-7" y="51"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TSpncnhVEeuR6tp4IywyKA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSqOgHhVEeuR6tp4IywyKA" x="12" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TSqOgXhVEeuR6tp4IywyKA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSqOgnhVEeuR6tp4IywyKA" x="12" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_TSpAYXhVEeuR6tp4IywyKA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_TSpAYnhVEeuR6tp4IywyKA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TSpAY3hVEeuR6tp4IywyKA" points="[0, 13, 0, -227]$[0, 227, 0, -13]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TSqOg3hVEeuR6tp4IywyKA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TSqOhHhVEeuR6tp4IywyKA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_TSq1kHhVEeuR6tp4IywyKA" type="4001" element="_TSfPZXhVEeuR6tp4IywyKA" source="_TSmkIHhVEeuR6tp4IywyKA" target="_TSl9EHhVEeuR6tp4IywyKA">
+          <children xmi:type="notation:Node" xmi:id="_TSq1lHhVEeuR6tp4IywyKA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSq1lXhVEeuR6tp4IywyKA" x="-11" y="44"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TSq1lnhVEeuR6tp4IywyKA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSq1l3hVEeuR6tp4IywyKA" x="-3" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TSq1mHhVEeuR6tp4IywyKA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSq1mXhVEeuR6tp4IywyKA" x="-5" y="-3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_TSq1kXhVEeuR6tp4IywyKA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_TSq1knhVEeuR6tp4IywyKA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TSq1k3hVEeuR6tp4IywyKA" points="[-11, -13, 74, 97]$[-75, -97, 10, 13]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TSq1mnhVEeuR6tp4IywyKA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TSq1m3hVEeuR6tp4IywyKA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_TSq1nHhVEeuR6tp4IywyKA" type="4001" element="_TSf2dHhVEeuR6tp4IywyKA" source="_TSnLMnhVEeuR6tp4IywyKA" target="_TSmkIHhVEeuR6tp4IywyKA">
+          <children xmi:type="notation:Node" xmi:id="_TSrcoHhVEeuR6tp4IywyKA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSrcoXhVEeuR6tp4IywyKA" x="17" y="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TSrconhVEeuR6tp4IywyKA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSrco3hVEeuR6tp4IywyKA" x="3" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TSrcpHhVEeuR6tp4IywyKA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TSrcpXhVEeuR6tp4IywyKA" x="2" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_TSq1nXhVEeuR6tp4IywyKA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_TSq1nnhVEeuR6tp4IywyKA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TSq1n3hVEeuR6tp4IywyKA" points="[8, -13, -77, 117]$[76, -117, -9, 13]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TSrcpnhVEeuR6tp4IywyKA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TSrcp3hVEeuR6tp4IywyKA" id="(0.5,0.5)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_-pZIsHeJEeujlsuPjQAN0A" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_-paW0HeJEeujlsuPjQAN0A"/>
     </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_YaTMpHgnEeuntJ0DrKityw" visible="false" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="trafficlight:Green" href="test.trafficlight#//@states.0"/>
+      <semanticElements xmi:type="trafficlight:Green" href="test.trafficlight#//@states.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_th-fEHgpEeuKP9zPu-znJQ" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/my.dsl.trafficlight.design/trafficlight_icons/Red.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_YaTzsHgnEeuntJ0DrKityw" visible="false" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="trafficlight:Red" href="test.trafficlight#//@states.1"/>
+      <semanticElements xmi:type="trafficlight:Red" href="test.trafficlight#//@states.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_tiFz0HgpEeuKP9zPu-znJQ" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/my.dsl.trafficlight.design/trafficlight_icons/Red.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_YaUawHgnEeuntJ0DrKityw" visible="false" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="trafficlight:Yellow" href="test.trafficlight#//@states.2"/>
+      <semanticElements xmi:type="trafficlight:Yellow" href="test.trafficlight#//@states.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_tiJeMHgpEeuKP9zPu-znJQ" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/my.dsl.trafficlight.design/trafficlight_icons/Red.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ZEcgknhNEeuR6tp4IywyKA" visible="false" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="trafficlight:Green" href="test.trafficlight#//@states.3"/>
+      <semanticElements xmi:type="trafficlight:Green" href="test.trafficlight#//@states.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ZEiAIHhNEeuR6tp4IywyKA" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/my.dsl.trafficlight.design/trafficlight_icons/Red.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ZEinMXhNEeuR6tp4IywyKA" visible="false" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="trafficlight:Red" href="test.trafficlight#//@states.4"/>
+      <semanticElements xmi:type="trafficlight:Red" href="test.trafficlight#//@states.4"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ZEpU4HhNEeuR6tp4IywyKA" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/my.dsl.trafficlight.design/trafficlight_icons/Red.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ZEp78HhNEeuR6tp4IywyKA" visible="false" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="trafficlight:Yellow" href="test.trafficlight#//@states.5"/>
+      <semanticElements xmi:type="trafficlight:Yellow" href="test.trafficlight#//@states.5"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ZFlwEHhNEeuR6tp4IywyKA" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/my.dsl.trafficlight.design/trafficlight_icons/Red.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_n6SMEXhQEeuR6tp4IywyKA" visible="false">
+      <target xmi:type="trafficlight:Transition" href="test.trafficlight#//@transitions.0"/>
+      <semanticElements xmi:type="trafficlight:Transition" href="test.trafficlight#//@transitions.0"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_n6SMEnhQEeuR6tp4IywyKA" visible="false">
+      <target xmi:type="trafficlight:Transition" href="test.trafficlight#//@transitions.1"/>
+      <semanticElements xmi:type="trafficlight:Transition" href="test.trafficlight#//@transitions.1"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_n6SzIHhQEeuR6tp4IywyKA" visible="false">
+      <target xmi:type="trafficlight:Transition" href="test.trafficlight#//@transitions.2"/>
+      <semanticElements xmi:type="trafficlight:Transition" href="test.trafficlight#//@transitions.2"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_TScMEHhVEeuR6tp4IywyKA" name="red" outgoingEdges="_TSfPYHhVEeuR6tp4IywyKA" incomingEdges="_TSfPZXhVEeuR6tp4IywyKA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="trafficlight:Red" href="test.trafficlight#//@states.1"/>
+      <semanticElements xmi:type="trafficlight:Red" href="test.trafficlight#//@states.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_TScMEXhVEeuR6tp4IywyKA" labelSize="12" showIcon="false" workspacePath="/my.dsl.trafficlight.design/trafficlight_icons/Red.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Red']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Red']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_TSdaMHhVEeuR6tp4IywyKA" name="yellow" outgoingEdges="_TSfPZXhVEeuR6tp4IywyKA" incomingEdges="_TSf2dHhVEeuR6tp4IywyKA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="trafficlight:Yellow" href="test.trafficlight#//@states.2"/>
+      <semanticElements xmi:type="trafficlight:Yellow" href="test.trafficlight#//@states.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_TSdaMXhVEeuR6tp4IywyKA" labelSize="12" showIcon="false" workspacePath="/my.dsl.trafficlight.design/trafficlight_icons/Yellow.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Yellow']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Yellow']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_TSeBQXhVEeuR6tp4IywyKA" name="green" outgoingEdges="_TSf2dHhVEeuR6tp4IywyKA" incomingEdges="_TSfPYHhVEeuR6tp4IywyKA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="trafficlight:Green" href="test.trafficlight#//@states.0"/>
+      <semanticElements xmi:type="trafficlight:Green" href="test.trafficlight#//@states.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_TSeoUHhVEeuR6tp4IywyKA" labelSize="12" showIcon="false" workspacePath="/my.dsl.trafficlight.design/trafficlight_icons/Green.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Green']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Green']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_TSfPYHhVEeuR6tp4IywyKA" name="20 seconds" sourceNode="_TScMEHhVEeuR6tp4IywyKA" targetNode="_TSeBQXhVEeuR6tp4IywyKA">
+      <target xmi:type="trafficlight:Red" href="test.trafficlight#//@states.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_TSfPYXhVEeuR6tp4IywyKA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@edgeMappings[name='TD_Next']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_TSfPYnhVEeuR6tp4IywyKA" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@edgeMappings[name='TD_Next']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_TSfPZXhVEeuR6tp4IywyKA" name="5 seconds" sourceNode="_TSdaMHhVEeuR6tp4IywyKA" targetNode="_TScMEHhVEeuR6tp4IywyKA">
+      <target xmi:type="trafficlight:Yellow" href="test.trafficlight#//@states.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_TSf2cHhVEeuR6tp4IywyKA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@edgeMappings[name='TD_Next']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_TSf2cXhVEeuR6tp4IywyKA" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@edgeMappings[name='TD_Next']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_TSf2dHhVEeuR6tp4IywyKA" name="15 seconds" sourceNode="_TSeBQXhVEeuR6tp4IywyKA" targetNode="_TSdaMHhVEeuR6tp4IywyKA">
+      <target xmi:type="trafficlight:Green" href="test.trafficlight#//@states.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_TSf2dXhVEeuR6tp4IywyKA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@edgeMappings[name='TD_Next']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_TSf2dnhVEeuR6tp4IywyKA" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@edgeMappings[name='TD_Next']"/>
+    </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_-oeisHeJEeujlsuPjQAN0A"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/my.dsl.trafficlight.design/description/trafficlight.odesign#//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer"/>
