@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: my.dsl.engineignition.edit;singleton:=true
+Automatic-Module-Name: my.dsl.engineignition.edit
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Activator: my.dsl.engineignition.provider.EngineignitionEditPlugin$Implementation
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: my.dsl.engineignition.provider
+Require-Bundle: org.eclipse.core.runtime,
+ my.dsl.engineignition;visibility:=reexport,
+ org.eclipse.emf.edit;visibility:=reexport
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/my.dsl.engineignition/src-gen" creationIcons="false"
+    editDirectory="/my.dsl.engineignition.edit/src-gen" editorDirectory="/my.dsl.engineignition.editor/src-gen"
+    modelPluginID="my.dsl.engineignition" modelName="Engineignition" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>engineignition.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Engineignition" basePackage="my.dsl" disposableProviderFactory="true"
+      ecorePackage="engineignition.ecore#/">
+    <genClasses ecoreClass="engineignition.ecore#//StateMachine">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference engineignition.ecore#//StateMachine/transitions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference engineignition.ecore#//StateMachine/states"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference engineignition.ecore#//StateMachine/start"/>
+    </genClasses>
+    <genClasses ecoreClass="engineignition.ecore#//State">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference engineignition.ecore#//State/outgoing"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference engineignition.ecore#//State/incomming"/>
+    </genClasses>
+    <genClasses ecoreClass="engineignition.ecore#//Transition">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference engineignition.ecore#//Transition/timer"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference engineignition.ecore#//Transition/sensor"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference engineignition.ecore#//Transition/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference engineignition.ecore#//Transition/target"/>
+    </genClasses>
+    <genClasses ecoreClass="engineignition.ecore#//NamedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute engineignition.ecore#//NamedElement/name"/>
+    </genClasses>
+    <genClasses ecoreClass="engineignition.ecore#//TimeEvent">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute engineignition.ecore#//TimeEvent/time"/>
+    </genClasses>
+    <genClasses ecoreClass="engineignition.ecore#//ThresholdEvent">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute engineignition.ecore#//ThresholdEvent/temperature"/>
+    </genClasses>
+    <genClasses ecoreClass="engineignition.ecore#//Stopped"/>
+    <genClasses ecoreClass="engineignition.ecore#//Heating"/>
+    <genClasses ecoreClass="engineignition.ecore#//Running"/>
+  </genPackages>
+</genmodel:GenModel>

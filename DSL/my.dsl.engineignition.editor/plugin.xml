@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated engineignition -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="my.dsl.engineignition.presentation.EngineignitionModelWizardID"
+            name="%_UI_EngineignitionModelWizard_label"
+            class="my.dsl.engineignition.presentation.EngineignitionModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/EngineignitionModelFile.gif">
+         <description>%_UI_EngineignitionModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated engineignition -->
+      <editor
+            id="my.dsl.engineignition.presentation.EngineignitionEditorID"
+            name="%_UI_EngineignitionEditor_label"
+            icon="icons/full/obj16/EngineignitionModelFile.gif"
+            extensions="engineignition"
+            class="my.dsl.engineignition.presentation.EngineignitionEditor"
+            contributorClass="my.dsl.engineignition.presentation.EngineignitionActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="engineignition" version="12.0.0.2017041100">
+  <ownedViewpoints name="Engineignition" modelFileExtension="engineignition">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="CarEngineIgnition Diagram" domainClass="engineignition::StateMachine" enablePopupBars="true">
+      <metamodel href="http://www.mydsl.no/engineignition/1.0.0#/"/>
+      <layout xsi:type="description_1:CompositeLayout"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="EID_Stopped" domainClass="engineignition::Stopped">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" tooltipExpression="Engine has stopped" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/engineignition/engine_icons/Stop.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="EID_Heating" domainClass="engineignition::Heating">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="Heating" tooltipExpression="Engine is heating" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/engineignition/engine_icons/EngineHeatingCoil.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="EID_Running" domainClass="engineignition::Running">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" tooltipExpression="Engine is running" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/engineignition/engine_icons/Start.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="EID_Next" sourceMapping="//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_Stopped'] //@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_Running'] //@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_Heating']" targetMapping="//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_Stopped'] //@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_Running'] //@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_Heating']" targetFinderExpression="aql:self.outgoing.target">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="aql:self.outgoing.timer.time + ' seconds'">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+            <endLabelStyleDescription labelSize="12" showIcon="false" labelExpression="aql:'engine temperature &lt; ' + self.outgoing.sensor.temperature + ' degrees'">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </endLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="my.dsl.engineignition.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

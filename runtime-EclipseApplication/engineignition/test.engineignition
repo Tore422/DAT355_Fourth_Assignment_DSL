@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<engineignition:StateMachine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engineignition="http://www.mydsl.no/engineignition/1.0.0">
+  <transitions name="stopped-to-running" source="//@states.0" target="//@states.2">
+    <timer time="5"/>
+  </transitions>
+  <transitions name="stopped-to-heating" source="//@states.0" target="//@states.1">
+    <sensor temperature="20"/>
+  </transitions>
+  <transitions name="heating-to-running" source="//@states.1" target="//@states.2">
+    <timer time="30"/>
+  </transitions>
+  <transitions name="running-to-stopped" source="//@states.2" target="//@states.0">
+    <timer time="1"/>
+  </transitions>
+  <states xsi:type="engineignition:Stopped" name="stopped" outgoing="//@transitions.0 //@transitions.1" incomming="//@transitions.3"/>
+  <states xsi:type="engineignition:Heating" name="heating" outgoing="//@transitions.2" incomming="//@transitions.1"/>
+  <states xsi:type="engineignition:Running" name="running" outgoing="//@transitions.3" incomming="//@transitions.0 //@transitions.2"/>
+</engineignition:StateMachine>

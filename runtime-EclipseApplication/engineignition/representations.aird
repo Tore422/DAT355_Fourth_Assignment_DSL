@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:engineignition="http://www.mydsl.no/engineignition/1.0.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="__BSIMHghEeuUQ_xe64yO7A" selectedViews="_b_Fz8HglEeuntJ0DrKityw" version="14.3.1.202003261200">
+    <semanticResources>test.engineignition</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_b_Fz8HglEeuntJ0DrKityw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_eF6WgXglEeuntJ0DrKityw" name="Main CarEngineIgnition Diagram" repPath="#_eF2FEHglEeuntJ0DrKityw" changeId="d8b2a220-a818-46b3-ae1c-84ef42660c2b">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']"/>
+        <target xmi:type="engineignition:StateMachine" href="test.engineignition#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_eF2FEHglEeuntJ0DrKityw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_eGDgcHglEeuntJ0DrKityw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_eGDgcXglEeuntJ0DrKityw" type="Sirius" element="_eF2FEHglEeuntJ0DrKityw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_geMyAHhxEeu7K_VJx3kClw" visible="false" type="2001" element="_gdY5sHhxEeu7K_VJx3kClw">
+          <children xmi:type="notation:Node" xmi:id="_geQcYHhxEeu7K_VJx3kClw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_geQcYXhxEeu7K_VJx3kClw" y="-22"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_geXxIHhxEeu7K_VJx3kClw" type="3005" element="_gdaH0HhxEeu7K_VJx3kClw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_geXxIXhxEeu7K_VJx3kClw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_geXxInhxEeu7K_VJx3kClw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_geMyAXhxEeu7K_VJx3kClw" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_geMyAnhxEeu7K_VJx3kClw" x="165" y="-2" width="88" height="73"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_geV78HhxEeu7K_VJx3kClw" visible="false" type="2001" element="_gdau4XhxEeu7K_VJx3kClw">
+          <children xmi:type="notation:Node" xmi:id="_geV783hxEeu7K_VJx3kClw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_geV79HhxEeu7K_VJx3kClw" y="-22"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_geYYMHhxEeu7K_VJx3kClw" type="3005" element="_gdbV8HhxEeu7K_VJx3kClw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_geYYMXhxEeu7K_VJx3kClw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_geYYMnhxEeu7K_VJx3kClw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_geV78XhxEeu7K_VJx3kClw" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_geV78nhxEeu7K_VJx3kClw" y="135" width="88" height="73"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_geWjAHhxEeu7K_VJx3kClw" visible="false" type="2001" element="_gdbV8nhxEeu7K_VJx3kClw">
+          <children xmi:type="notation:Node" xmi:id="_geXKEHhxEeu7K_VJx3kClw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_geXKEXhxEeu7K_VJx3kClw" y="-22"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_geY_QHhxEeu7K_VJx3kClw" type="3005" element="_gdbV83hxEeu7K_VJx3kClw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_geY_QXhxEeu7K_VJx3kClw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_geY_QnhxEeu7K_VJx3kClw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_geWjAXhxEeu7K_VJx3kClw" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_geWjAnhxEeu7K_VJx3kClw" x="165" y="265" width="88" height="73"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ttWzkHh0EeucaMy1qfoX0A" type="2001" element="_tsTDoHh0EeucaMy1qfoX0A">
+          <children xmi:type="notation:Node" xmi:id="_ttXaoHh0EeucaMy1qfoX0A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ttXaoXh0EeucaMy1qfoX0A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tt3J4Hh0EeucaMy1qfoX0A" type="3005" element="_tsTqsHh0EeucaMy1qfoX0A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tt3J4Xh0EeucaMy1qfoX0A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tt3J4nh0EeucaMy1qfoX0A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ttWzkXh0EeucaMy1qfoX0A" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ttWzknh0EeucaMy1qfoX0A" x="210" y="316" width="88" height="73"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ttnSQHh0EeucaMy1qfoX0A" type="2001" element="_tsURwXh0EeucaMy1qfoX0A">
+          <children xmi:type="notation:Node" xmi:id="_ttsKwHh0EeucaMy1qfoX0A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ttsKwXh0EeucaMy1qfoX0A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tt3w8Hh0EeucaMy1qfoX0A" type="3005" element="_tsURwnh0EeucaMy1qfoX0A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tt3w8Xh0EeucaMy1qfoX0A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tt3w8nh0EeucaMy1qfoX0A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ttnSQXh0EeucaMy1qfoX0A" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ttnSQnh0EeucaMy1qfoX0A" x="40" y="141" width="88" height="73"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ttsx0Hh0EeucaMy1qfoX0A" type="2001" element="_tsVf4Hh0EeucaMy1qfoX0A">
+          <children xmi:type="notation:Node" xmi:id="_ttsx03h0EeucaMy1qfoX0A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ttsx1Hh0EeucaMy1qfoX0A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tt3w83h0EeucaMy1qfoX0A" type="3005" element="_tsWG8Hh0EeucaMy1qfoX0A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tt3w9Hh0EeucaMy1qfoX0A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tt3w9Xh0EeucaMy1qfoX0A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ttsx0Xh0EeucaMy1qfoX0A" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ttsx0nh0EeucaMy1qfoX0A" x="205" y="21" width="88" height="73"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_eGDgcnglEeuntJ0DrKityw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_a1XZ4Hh0EeucaMy1qfoX0A" visible="false" type="4001" element="_a1OP8Hh0EeucaMy1qfoX0A" source="_geMyAHhxEeu7K_VJx3kClw" target="_geWjAHhxEeu7K_VJx3kClw">
+          <children xmi:type="notation:Node" xmi:id="_a1YA8Hh0EeucaMy1qfoX0A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1YA8Xh0EeucaMy1qfoX0A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a1YA8nh0EeucaMy1qfoX0A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1YA83h0EeucaMy1qfoX0A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a1YA9Hh0EeucaMy1qfoX0A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1YA9Xh0EeucaMy1qfoX0A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a1XZ4Xh0EeucaMy1qfoX0A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a1XZ4nh0EeucaMy1qfoX0A" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a1XZ43h0EeucaMy1qfoX0A" points="[0, 0, 0, -193]$[0, 193, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a1YoAHh0EeucaMy1qfoX0A" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a1YoAXh0EeucaMy1qfoX0A" id="(0.5,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_a1YoAnh0EeucaMy1qfoX0A" visible="false" type="4001" element="_a1QFIHh0EeucaMy1qfoX0A" source="_geMyAHhxEeu7K_VJx3kClw" target="_geV78HhxEeu7K_VJx3kClw">
+          <children xmi:type="notation:Node" xmi:id="_a1ZPEHh0EeucaMy1qfoX0A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1ZPEXh0EeucaMy1qfoX0A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a1ZPEnh0EeucaMy1qfoX0A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1ZPE3h0EeucaMy1qfoX0A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a1ZPFHh0EeucaMy1qfoX0A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1ZPFXh0EeucaMy1qfoX0A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a1YoA3h0EeucaMy1qfoX0A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a1YoBHh0EeucaMy1qfoX0A" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a1YoBXh0EeucaMy1qfoX0A" points="[0, 0, 164, -60]$[-164, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a1Z2IHh0EeucaMy1qfoX0A" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a1Z2IXh0EeucaMy1qfoX0A" id="(0.5,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_a1Z2Inh0EeucaMy1qfoX0A" visible="false" type="4001" element="_a1RTQHh0EeucaMy1qfoX0A" source="_geV78HhxEeu7K_VJx3kClw" target="_geWjAHhxEeu7K_VJx3kClw">
+          <children xmi:type="notation:Node" xmi:id="_a1Z2Jnh0EeucaMy1qfoX0A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1Z2J3h0EeucaMy1qfoX0A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a1Z2KHh0EeucaMy1qfoX0A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1Z2KXh0EeucaMy1qfoX0A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a1Z2Knh0EeucaMy1qfoX0A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1Z2K3h0EeucaMy1qfoX0A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a1Z2I3h0EeucaMy1qfoX0A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a1Z2JHh0EeucaMy1qfoX0A" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a1Z2JXh0EeucaMy1qfoX0A" points="[0, 0, -164, -60]$[164, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a1adMHh0EeucaMy1qfoX0A" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a1adMXh0EeucaMy1qfoX0A" id="(0.5,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_a1adMnh0EeucaMy1qfoX0A" visible="false" type="4001" element="_a1R6UHh0EeucaMy1qfoX0A" source="_geWjAHhxEeu7K_VJx3kClw" target="_geMyAHhxEeu7K_VJx3kClw">
+          <children xmi:type="notation:Node" xmi:id="_a1adNnh0EeucaMy1qfoX0A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1adN3h0EeucaMy1qfoX0A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a1adOHh0EeucaMy1qfoX0A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1adOXh0EeucaMy1qfoX0A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a1adOnh0EeucaMy1qfoX0A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1adO3h0EeucaMy1qfoX0A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a1adM3h0EeucaMy1qfoX0A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a1adNHh0EeucaMy1qfoX0A" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a1adNXh0EeucaMy1qfoX0A" points="[0, 0, 0, 193]$[180, -61, 180, 132]$[180, -133, 180, 60]$[0, -193, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a1bEQHh0EeucaMy1qfoX0A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a1bEQXh0EeucaMy1qfoX0A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zBCTsHh0EeucaMy1qfoX0A" type="4001" element="_y_4dIHh0EeucaMy1qfoX0A" source="_ttWzkHh0EeucaMy1qfoX0A" target="_ttsx0Hh0EeucaMy1qfoX0A">
+          <children xmi:type="notation:Node" xmi:id="_zBCTtHh0EeucaMy1qfoX0A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBCTtXh0EeucaMy1qfoX0A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zBC6wHh0EeucaMy1qfoX0A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBC6wXh0EeucaMy1qfoX0A" x="154" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zBC6wnh0EeucaMy1qfoX0A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBC6w3h0EeucaMy1qfoX0A" x="70" y="197"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zBCTsXh0EeucaMy1qfoX0A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zBCTsnh0EeucaMy1qfoX0A" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zBCTs3h0EeucaMy1qfoX0A" points="[0, 0, 0, -193]$[0, 193, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zBC6xHh0EeucaMy1qfoX0A" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zBC6xXh0EeucaMy1qfoX0A" id="(0.5,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zBC6xnh0EeucaMy1qfoX0A" type="4001" element="_y_5rQHh0EeucaMy1qfoX0A" source="_ttWzkHh0EeucaMy1qfoX0A" target="_ttnSQHh0EeucaMy1qfoX0A">
+          <children xmi:type="notation:Node" xmi:id="_zBDh0Hh0EeucaMy1qfoX0A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBDh0Xh0EeucaMy1qfoX0A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zBDh0nh0EeucaMy1qfoX0A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBDh03h0EeucaMy1qfoX0A" x="14" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zBDh1Hh0EeucaMy1qfoX0A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBDh1Xh0EeucaMy1qfoX0A" x="26" y="-164"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zBC6x3h0EeucaMy1qfoX0A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zBC6yHh0EeucaMy1qfoX0A" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zBC6yXh0EeucaMy1qfoX0A" points="[0, 0, 164, -60]$[-164, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zBEI4Hh0EeucaMy1qfoX0A" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zBEI4Xh0EeucaMy1qfoX0A" id="(0.5,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zBEI4nh0EeucaMy1qfoX0A" type="4001" element="_zABAAHh0EeucaMy1qfoX0A" source="_ttsx0Hh0EeucaMy1qfoX0A" target="_ttWzkHh0EeucaMy1qfoX0A">
+          <children xmi:type="notation:Node" xmi:id="_zBEI5nh0EeucaMy1qfoX0A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBEI53h0EeucaMy1qfoX0A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zBEv8Hh0EeucaMy1qfoX0A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBEv8Xh0EeucaMy1qfoX0A" x="-2" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zBEv8nh0EeucaMy1qfoX0A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBEv83h0EeucaMy1qfoX0A" x="-86" y="-93"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zBEI43h0EeucaMy1qfoX0A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zBEI5Hh0EeucaMy1qfoX0A" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zBEI5Xh0EeucaMy1qfoX0A" points="[0, 0, 0, 193]$[180, -61, 180, 132]$[180, -133, 180, 60]$[0, -193, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zBEv9Hh0EeucaMy1qfoX0A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zBEv9Xh0EeucaMy1qfoX0A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zBEv9nh0EeucaMy1qfoX0A" type="4001" element="_zAFRcHh0EeucaMy1qfoX0A" source="_ttnSQHh0EeucaMy1qfoX0A" target="_ttsx0Hh0EeucaMy1qfoX0A">
+          <children xmi:type="notation:Node" xmi:id="_zBFXAHh0EeucaMy1qfoX0A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBFXAXh0EeucaMy1qfoX0A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zBFXAnh0EeucaMy1qfoX0A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBFXA3h0EeucaMy1qfoX0A" x="-10" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zBFXBHh0EeucaMy1qfoX0A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBFXBXh0EeucaMy1qfoX0A" x="-93" y="-152"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zBEv93h0EeucaMy1qfoX0A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zBEv-Hh0EeucaMy1qfoX0A" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zBEv-Xh0EeucaMy1qfoX0A" points="[0, 0, -164, -60]$[164, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zBHMMHh0EeucaMy1qfoX0A" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zBHMMXh0EeucaMy1qfoX0A" id="(0.5,0.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_eGEHgHglEeuntJ0DrKityw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_eGEHgXglEeuntJ0DrKityw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_gdY5sHhxEeu7K_VJx3kClw" name="stopped" visible="false" outgoingEdges="_a1OP8Hh0EeucaMy1qfoX0A _a1QFIHh0EeucaMy1qfoX0A" incomingEdges="_a1R6UHh0EeucaMy1qfoX0A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="engineignition:Stopped" href="test.engineignition#//@states.0"/>
+      <semanticElements xmi:type="engineignition:Stopped" href="test.engineignition#//@states.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_gdaH0HhxEeu7K_VJx3kClw" labelSize="12" showIcon="false" workspacePath="/engineignition/engine_icons/EngineHeatingCoil.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_gdau4XhxEeu7K_VJx3kClw" name="heating" visible="false" outgoingEdges="_a1RTQHh0EeucaMy1qfoX0A" incomingEdges="_a1QFIHh0EeucaMy1qfoX0A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="engineignition:Heating" href="test.engineignition#//@states.1"/>
+      <semanticElements xmi:type="engineignition:Heating" href="test.engineignition#//@states.1"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_gdbV8HhxEeu7K_VJx3kClw" labelSize="12" showIcon="false" workspacePath="/engineignition/engine_icons/EngineHeatingCoil.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_gdbV8nhxEeu7K_VJx3kClw" name="running" visible="false" outgoingEdges="_a1R6UHh0EeucaMy1qfoX0A" incomingEdges="_a1OP8Hh0EeucaMy1qfoX0A _a1RTQHh0EeucaMy1qfoX0A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="engineignition:Running" href="test.engineignition#//@states.2"/>
+      <semanticElements xmi:type="engineignition:Running" href="test.engineignition#//@states.2"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_gdbV83hxEeu7K_VJx3kClw" labelSize="12" showIcon="false" workspacePath="/engineignition/engine_icons/EngineHeatingCoil.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a1OP8Hh0EeucaMy1qfoX0A" name="5 seconds" visible="false" sourceNode="_gdY5sHhxEeu7K_VJx3kClw" targetNode="_gdbV8nhxEeu7K_VJx3kClw">
+      <target xmi:type="engineignition:Stopped" href="test.engineignition#//@states.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a1OP8Xh0EeucaMy1qfoX0A" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a1OP83h0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_a1OP8nh0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a1QFIHh0EeucaMy1qfoX0A" name="5 seconds" visible="false" sourceNode="_gdY5sHhxEeu7K_VJx3kClw" targetNode="_gdau4XhxEeu7K_VJx3kClw">
+      <target xmi:type="engineignition:Stopped" href="test.engineignition#//@states.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a1QFIXh0EeucaMy1qfoX0A" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a1QFI3h0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_a1QFInh0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a1RTQHh0EeucaMy1qfoX0A" name="30 seconds" visible="false" sourceNode="_gdau4XhxEeu7K_VJx3kClw" targetNode="_gdbV8nhxEeu7K_VJx3kClw">
+      <target xmi:type="engineignition:Heating" href="test.engineignition#//@states.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a1RTQXh0EeucaMy1qfoX0A" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a1RTQ3h0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_a1RTQnh0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a1R6UHh0EeucaMy1qfoX0A" name="1 seconds" visible="false" sourceNode="_gdbV8nhxEeu7K_VJx3kClw" targetNode="_gdY5sHhxEeu7K_VJx3kClw">
+      <target xmi:type="engineignition:Running" href="test.engineignition#//@states.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a1R6UXh0EeucaMy1qfoX0A" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a1R6U3h0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_a1R6Unh0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_tsTDoHh0EeucaMy1qfoX0A" name="stopped" tooltipText="Engine has stopped" outgoingEdges="_y_4dIHh0EeucaMy1qfoX0A _y_5rQHh0EeucaMy1qfoX0A" incomingEdges="_zABAAHh0EeucaMy1qfoX0A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="engineignition:Stopped" href="test.engineignition#//@states.0"/>
+      <semanticElements xmi:type="engineignition:Stopped" href="test.engineignition#//@states.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_tsTqsHh0EeucaMy1qfoX0A" labelSize="12" showIcon="false" workspacePath="/engineignition/engine_icons/Stop.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_Stopped']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_Stopped']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_tsURwXh0EeucaMy1qfoX0A" name="Heating" tooltipText="Engine is heating" outgoingEdges="_zAFRcHh0EeucaMy1qfoX0A" incomingEdges="_y_5rQHh0EeucaMy1qfoX0A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="engineignition:Heating" href="test.engineignition#//@states.1"/>
+      <semanticElements xmi:type="engineignition:Heating" href="test.engineignition#//@states.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_tsURwnh0EeucaMy1qfoX0A" labelSize="12" showIcon="false" workspacePath="/engineignition/engine_icons/EngineHeatingCoil.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_Heating']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_Heating']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_tsVf4Hh0EeucaMy1qfoX0A" name="running" tooltipText="Engine is running" outgoingEdges="_zABAAHh0EeucaMy1qfoX0A" incomingEdges="_y_4dIHh0EeucaMy1qfoX0A _zAFRcHh0EeucaMy1qfoX0A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="engineignition:Running" href="test.engineignition#//@states.2"/>
+      <semanticElements xmi:type="engineignition:Running" href="test.engineignition#//@states.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_tsWG8Hh0EeucaMy1qfoX0A" labelSize="12" showIcon="false" workspacePath="/engineignition/engine_icons/Start.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_Running']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@nodeMappings[name='EID_Running']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_y_4dIHh0EeucaMy1qfoX0A" name="5 seconds" sourceNode="_tsTDoHh0EeucaMy1qfoX0A" targetNode="_tsVf4Hh0EeucaMy1qfoX0A" endLabel="engine temperature &lt; 20 degrees">
+      <target xmi:type="engineignition:Stopped" href="test.engineignition#//@states.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_y_4dIXh0EeucaMy1qfoX0A" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_y_4dI3h0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_y_4dInh0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_y_5rQHh0EeucaMy1qfoX0A" name="5 seconds" sourceNode="_tsTDoHh0EeucaMy1qfoX0A" targetNode="_tsURwXh0EeucaMy1qfoX0A" endLabel="engine temperature &lt; 20 degrees">
+      <target xmi:type="engineignition:Stopped" href="test.engineignition#//@states.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_y_6SUHh0EeucaMy1qfoX0A" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_y_6SUnh0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_y_6SUXh0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_zABAAHh0EeucaMy1qfoX0A" name="1 seconds" sourceNode="_tsVf4Hh0EeucaMy1qfoX0A" targetNode="_tsTDoHh0EeucaMy1qfoX0A" endLabel="engine temperature &lt;  degrees">
+      <target xmi:type="engineignition:Running" href="test.engineignition#//@states.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_zABnEHh0EeucaMy1qfoX0A" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_zABnEnh0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_zABnEXh0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_zAFRcHh0EeucaMy1qfoX0A" name="30 seconds" sourceNode="_tsURwXh0EeucaMy1qfoX0A" targetNode="_tsVf4Hh0EeucaMy1qfoX0A" endLabel="engine temperature &lt;  degrees">
+      <target xmi:type="engineignition:Heating" href="test.engineignition#//@states.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_zAF4gHh0EeucaMy1qfoX0A" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_zAF4gnh0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_zAF4gXh0EeucaMy1qfoX0A" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer/@edgeMappings[name='EID_Next']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_eF2sIHglEeuntJ0DrKityw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/my.dsl.engineignition.design/description/engineignition.odesign#//@ownedViewpoints[name='Engineignition']/@ownedRepresentations[name='CarEngineIgnition%20Diagram']/@defaultLayer"/>
+    <target xmi:type="engineignition:StateMachine" href="test.engineignition#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
