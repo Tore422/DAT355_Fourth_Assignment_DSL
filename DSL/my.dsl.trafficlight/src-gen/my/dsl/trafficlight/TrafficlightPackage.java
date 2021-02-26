@@ -314,6 +314,171 @@ public interface TrafficlightPackage extends EPackage {
 	int STATE_MACHINE_OPERATION_COUNT = NAMED_ELEMENT_OPERATION_COUNT + 0;
 
 	/**
+	 * The meta object id for the '{@link my.dsl.trafficlight.impl.YellowImpl <em>Yellow</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see my.dsl.trafficlight.impl.YellowImpl
+	 * @see my.dsl.trafficlight.impl.TrafficlightPackageImpl#getYellow()
+	 * @generated
+	 */
+	int YELLOW = 5;
+
+	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int YELLOW__NAME = STATE__NAME;
+
+	/**
+	 * The feature id for the '<em><b>Outgoing</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int YELLOW__OUTGOING = STATE__OUTGOING;
+
+	/**
+	 * The feature id for the '<em><b>Incoming</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int YELLOW__INCOMING = STATE__INCOMING;
+
+	/**
+	 * The number of structural features of the '<em>Yellow</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int YELLOW_FEATURE_COUNT = STATE_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of operations of the '<em>Yellow</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int YELLOW_OPERATION_COUNT = STATE_OPERATION_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link my.dsl.trafficlight.impl.GreenImpl <em>Green</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see my.dsl.trafficlight.impl.GreenImpl
+	 * @see my.dsl.trafficlight.impl.TrafficlightPackageImpl#getGreen()
+	 * @generated
+	 */
+	int GREEN = 6;
+
+	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GREEN__NAME = STATE__NAME;
+
+	/**
+	 * The feature id for the '<em><b>Outgoing</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GREEN__OUTGOING = STATE__OUTGOING;
+
+	/**
+	 * The feature id for the '<em><b>Incoming</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GREEN__INCOMING = STATE__INCOMING;
+
+	/**
+	 * The number of structural features of the '<em>Green</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GREEN_FEATURE_COUNT = STATE_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of operations of the '<em>Green</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GREEN_OPERATION_COUNT = STATE_OPERATION_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link my.dsl.trafficlight.impl.RedImpl <em>Red</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see my.dsl.trafficlight.impl.RedImpl
+	 * @see my.dsl.trafficlight.impl.TrafficlightPackageImpl#getRed()
+	 * @generated
+	 */
+	int RED = 7;
+
+	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RED__NAME = STATE__NAME;
+
+	/**
+	 * The feature id for the '<em><b>Outgoing</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RED__OUTGOING = STATE__OUTGOING;
+
+	/**
+	 * The feature id for the '<em><b>Incoming</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RED__INCOMING = STATE__INCOMING;
+
+	/**
+	 * The number of structural features of the '<em>Red</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RED_FEATURE_COUNT = STATE_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of operations of the '<em>Red</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RED_OPERATION_COUNT = STATE_OPERATION_COUNT + 0;
+
+	/**
 	 * Returns the meta object for class '{@link my.dsl.trafficlight.State <em>State</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -474,6 +639,36 @@ public interface TrafficlightPackage extends EPackage {
 	EAttribute getNamedElement_Name();
 
 	/**
+	 * Returns the meta object for class '{@link my.dsl.trafficlight.Yellow <em>Yellow</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Yellow</em>'.
+	 * @see my.dsl.trafficlight.Yellow
+	 * @generated
+	 */
+	EClass getYellow();
+
+	/**
+	 * Returns the meta object for class '{@link my.dsl.trafficlight.Green <em>Green</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Green</em>'.
+	 * @see my.dsl.trafficlight.Green
+	 * @generated
+	 */
+	EClass getGreen();
+
+	/**
+	 * Returns the meta object for class '{@link my.dsl.trafficlight.Red <em>Red</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Red</em>'.
+	 * @see my.dsl.trafficlight.Red
+	 * @generated
+	 */
+	EClass getRed();
+
+	/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -625,6 +820,36 @@ public interface TrafficlightPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute NAMED_ELEMENT__NAME = eINSTANCE.getNamedElement_Name();
+
+		/**
+		 * The meta object literal for the '{@link my.dsl.trafficlight.impl.YellowImpl <em>Yellow</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see my.dsl.trafficlight.impl.YellowImpl
+		 * @see my.dsl.trafficlight.impl.TrafficlightPackageImpl#getYellow()
+		 * @generated
+		 */
+		EClass YELLOW = eINSTANCE.getYellow();
+
+		/**
+		 * The meta object literal for the '{@link my.dsl.trafficlight.impl.GreenImpl <em>Green</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see my.dsl.trafficlight.impl.GreenImpl
+		 * @see my.dsl.trafficlight.impl.TrafficlightPackageImpl#getGreen()
+		 * @generated
+		 */
+		EClass GREEN = eINSTANCE.getGreen();
+
+		/**
+		 * The meta object literal for the '{@link my.dsl.trafficlight.impl.RedImpl <em>Red</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see my.dsl.trafficlight.impl.RedImpl
+		 * @see my.dsl.trafficlight.impl.TrafficlightPackageImpl#getRed()
+		 * @generated
+		 */
+		EClass RED = eINSTANCE.getRed();
 
 	}
 

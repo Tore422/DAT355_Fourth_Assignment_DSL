@@ -58,6 +58,33 @@ public interface TrafficlightFactory extends EFactory {
 	StateMachine createStateMachine();
 
 	/**
+	 * Returns a new object of class '<em>Yellow</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Yellow</em>'.
+	 * @generated
+	 */
+	Yellow createYellow();
+
+	/**
+	 * Returns a new object of class '<em>Green</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Green</em>'.
+	 * @generated
+	 */
+	Green createGreen();
+
+	/**
+	 * Returns a new object of class '<em>Red</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Red</em>'.
+	 * @generated
+	 */
+	Red createRed();
+
+	/**
 	 * Returns the package supported by this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

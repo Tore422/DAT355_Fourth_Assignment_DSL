@@ -165,6 +165,75 @@ public class TrafficlightItemProviderAdapterFactory extends TrafficlightAdapterF
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link my.dsl.trafficlight.Yellow} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected YellowItemProvider yellowItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link my.dsl.trafficlight.Yellow}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createYellowAdapter() {
+		if (yellowItemProvider == null) {
+			yellowItemProvider = new YellowItemProvider(this);
+		}
+
+		return yellowItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link my.dsl.trafficlight.Green} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected GreenItemProvider greenItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link my.dsl.trafficlight.Green}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createGreenAdapter() {
+		if (greenItemProvider == null) {
+			greenItemProvider = new GreenItemProvider(this);
+		}
+
+		return greenItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link my.dsl.trafficlight.Red} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RedItemProvider redItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link my.dsl.trafficlight.Red}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRedAdapter() {
+		if (redItemProvider == null) {
+			redItemProvider = new RedItemProvider(this);
+		}
+
+		return redItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -271,6 +340,12 @@ public class TrafficlightItemProviderAdapterFactory extends TrafficlightAdapterF
 			timeEventItemProvider.dispose();
 		if (stateMachineItemProvider != null)
 			stateMachineItemProvider.dispose();
+		if (yellowItemProvider != null)
+			yellowItemProvider.dispose();
+		if (greenItemProvider != null)
+			greenItemProvider.dispose();
+		if (redItemProvider != null)
+			redItemProvider.dispose();
 	}
 
 }

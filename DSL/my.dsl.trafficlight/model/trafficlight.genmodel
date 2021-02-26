@@ -30,5 +30,8 @@
     <genClasses ecoreClass="trafficlight.ecore#//NamedElement">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute trafficlight.ecore#//NamedElement/name"/>
     </genClasses>
+    <genClasses ecoreClass="trafficlight.ecore#//Yellow"/>
+    <genClasses ecoreClass="trafficlight.ecore#//Green"/>
+    <genClasses ecoreClass="trafficlight.ecore#//Red"/>
   </genPackages>
 </genmodel:GenModel>

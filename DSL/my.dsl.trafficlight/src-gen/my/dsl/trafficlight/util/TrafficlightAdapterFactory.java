@@ -92,6 +92,21 @@ public class TrafficlightAdapterFactory extends AdapterFactoryImpl {
 		}
 
 		@Override
+		public Adapter caseYellow(Yellow object) {
+			return createYellowAdapter();
+		}
+
+		@Override
+		public Adapter caseGreen(Green object) {
+			return createGreenAdapter();
+		}
+
+		@Override
+		public Adapter caseRed(Red object) {
+			return createRedAdapter();
+		}
+
+		@Override
 		public Adapter defaultCase(EObject object) {
 			return createEObjectAdapter();
 		}
@@ -177,6 +192,48 @@ public class TrafficlightAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createNamedElementAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link my.dsl.trafficlight.Yellow <em>Yellow</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see my.dsl.trafficlight.Yellow
+	 * @generated
+	 */
+	public Adapter createYellowAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link my.dsl.trafficlight.Green <em>Green</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see my.dsl.trafficlight.Green
+	 * @generated
+	 */
+	public Adapter createGreenAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link my.dsl.trafficlight.Red <em>Red</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see my.dsl.trafficlight.Red
+	 * @generated
+	 */
+	public Adapter createRedAdapter() {
 		return null;
 	}
 

@@ -107,6 +107,39 @@ public class TrafficlightSwitch<T> extends Switch<T> {
 				result = defaultCase(theEObject);
 			return result;
 		}
+		case TrafficlightPackage.YELLOW: {
+			Yellow yellow = (Yellow) theEObject;
+			T result = caseYellow(yellow);
+			if (result == null)
+				result = caseState(yellow);
+			if (result == null)
+				result = caseNamedElement(yellow);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
+		case TrafficlightPackage.GREEN: {
+			Green green = (Green) theEObject;
+			T result = caseGreen(green);
+			if (result == null)
+				result = caseState(green);
+			if (result == null)
+				result = caseNamedElement(green);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
+		case TrafficlightPackage.RED: {
+			Red red = (Red) theEObject;
+			T result = caseRed(red);
+			if (result == null)
+				result = caseState(red);
+			if (result == null)
+				result = caseNamedElement(red);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
 		default:
 			return defaultCase(theEObject);
 		}
@@ -184,6 +217,51 @@ public class TrafficlightSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseNamedElement(NamedElement object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Yellow</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Yellow</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseYellow(Yellow object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Green</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Green</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseGreen(Green object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Red</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Red</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseRed(Red object) {
 		return null;
 	}
 

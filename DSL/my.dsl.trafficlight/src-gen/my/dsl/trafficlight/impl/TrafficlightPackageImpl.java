@@ -2,7 +2,9 @@
  */
 package my.dsl.trafficlight.impl;
 
+import my.dsl.trafficlight.Green;
 import my.dsl.trafficlight.NamedElement;
+import my.dsl.trafficlight.Red;
 import my.dsl.trafficlight.State;
 import my.dsl.trafficlight.StateMachine;
 import my.dsl.trafficlight.TimeEvent;
@@ -10,6 +12,7 @@ import my.dsl.trafficlight.TrafficlightFactory;
 import my.dsl.trafficlight.TrafficlightPackage;
 import my.dsl.trafficlight.Transition;
 
+import my.dsl.trafficlight.Yellow;
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EPackage;
@@ -58,6 +61,27 @@ public class TrafficlightPackageImpl extends EPackageImpl implements Trafficligh
 	 * @generated
 	 */
 	private EClass namedElementEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass yellowEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass greenEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass redEClass = null;
 
 	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
@@ -263,6 +287,33 @@ public class TrafficlightPackageImpl extends EPackageImpl implements Trafficligh
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EClass getYellow() {
+		return yellowEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getGreen() {
+		return greenEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getRed() {
+		return redEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public TrafficlightFactory getTrafficlightFactory() {
 		return (TrafficlightFactory) getEFactoryInstance();
 	}
@@ -306,6 +357,12 @@ public class TrafficlightPackageImpl extends EPackageImpl implements Trafficligh
 
 		namedElementEClass = createEClass(NAMED_ELEMENT);
 		createEAttribute(namedElementEClass, NAMED_ELEMENT__NAME);
+
+		yellowEClass = createEClass(YELLOW);
+
+		greenEClass = createEClass(GREEN);
+
+		redEClass = createEClass(RED);
 	}
 
 	/**
@@ -340,6 +397,9 @@ public class TrafficlightPackageImpl extends EPackageImpl implements Trafficligh
 		stateEClass.getESuperTypes().add(this.getNamedElement());
 		transitionEClass.getESuperTypes().add(this.getNamedElement());
 		stateMachineEClass.getESuperTypes().add(this.getNamedElement());
+		yellowEClass.getESuperTypes().add(this.getState());
+		greenEClass.getESuperTypes().add(this.getState());
+		redEClass.getESuperTypes().add(this.getState());
 
 		// Initialize classes, features, and operations; add parameters
 		initEClass(stateEClass, State.class, "State", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
@@ -383,6 +443,12 @@ public class TrafficlightPackageImpl extends EPackageImpl implements Trafficligh
 				IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getNamedElement_Name(), ecorePackage.getEString(), "name", null, 1, 1, NamedElement.class,
 				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEClass(yellowEClass, Yellow.class, "Yellow", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+
+		initEClass(greenEClass, Green.class, "Green", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+
+		initEClass(redEClass, Red.class, "Red", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		// Create resource
 		createResource(eNS_URI);

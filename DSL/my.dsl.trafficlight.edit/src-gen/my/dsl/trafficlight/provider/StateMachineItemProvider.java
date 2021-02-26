@@ -167,6 +167,15 @@ public class StateMachineItemProvider extends NamedElementItemProvider {
 
 		newChildDescriptors.add(createChildParameter(TrafficlightPackage.Literals.STATE_MACHINE__STATES,
 				TrafficlightFactory.eINSTANCE.createState()));
+
+		newChildDescriptors.add(createChildParameter(TrafficlightPackage.Literals.STATE_MACHINE__STATES,
+				TrafficlightFactory.eINSTANCE.createYellow()));
+
+		newChildDescriptors.add(createChildParameter(TrafficlightPackage.Literals.STATE_MACHINE__STATES,
+				TrafficlightFactory.eINSTANCE.createGreen()));
+
+		newChildDescriptors.add(createChildParameter(TrafficlightPackage.Literals.STATE_MACHINE__STATES,
+				TrafficlightFactory.eINSTANCE.createRed()));
 	}
 
 }

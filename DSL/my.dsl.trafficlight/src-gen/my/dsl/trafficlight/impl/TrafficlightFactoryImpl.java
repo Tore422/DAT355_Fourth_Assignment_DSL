@@ -64,6 +64,12 @@ public class TrafficlightFactoryImpl extends EFactoryImpl implements Trafficligh
 			return createTimeEvent();
 		case TrafficlightPackage.STATE_MACHINE:
 			return createStateMachine();
+		case TrafficlightPackage.YELLOW:
+			return createYellow();
+		case TrafficlightPackage.GREEN:
+			return createGreen();
+		case TrafficlightPackage.RED:
+			return createRed();
 		default:
 			throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -107,6 +113,36 @@ public class TrafficlightFactoryImpl extends EFactoryImpl implements Trafficligh
 	public StateMachine createStateMachine() {
 		StateMachineImpl stateMachine = new StateMachineImpl();
 		return stateMachine;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Yellow createYellow() {
+		YellowImpl yellow = new YellowImpl();
+		return yellow;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Green createGreen() {
+		GreenImpl green = new GreenImpl();
+		return green;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Red createRed() {
+		RedImpl red = new RedImpl();
+		return red;
 	}
 
 	/**

@@ -3,13 +3,40 @@
   <ownedViewpoints name="Trafficlight" modelFileExtension="trafficlight">
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Trafficlight Diagram" domainClass="trafficlight::StateMachine" enablePopupBars="true">
       <metamodel href="http://www.mydsl.no/trafficlight/1.0#/"/>
+      <layout xsi:type="description_1:CompositeLayout" direction="LeftToRight"/>
       <defaultLayer name="Default">
-        <nodeMappings name="TD_StateMachine" semanticCandidatesExpression="feature:states" domainClass="trafficlight::StateMachine">
-          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/my.dsl.trafficlight.design/icons/G.png">
+        <nodeMappings name="TD_StateMachine" semanticCandidatesExpression="feature:start" domainClass="trafficlight::StateMachine">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/my.dsl.trafficlight.design/trafficlight_icons/Trafficlight.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
+        <nodeMappings name="TD_Red" domainClass="trafficlight::Red">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/my.dsl.trafficlight.design/trafficlight_icons/Red.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="TD_Yellow" semanticCandidatesExpression="feature:states" domainClass="trafficlight::Yellow">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/my.dsl.trafficlight.design/trafficlight_icons/Yellow.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="TD_Green" semanticCandidatesExpression="feature:states" domainClass="trafficlight::Green">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/my.dsl.trafficlight.design/trafficlight_icons/Green.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="TD_Next" sourceMapping="//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Red'] //@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Yellow'] //@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Green']" targetMapping="//@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Yellow'] //@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Green'] //@ownedViewpoints[name='Trafficlight']/@ownedRepresentations[name='Trafficlight%20Diagram']/@defaultLayer/@nodeMappings[name='TD_Red']" targetFinderExpression="aql:self.outgoing.target">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="aql:self.outgoing.timer.time">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
       </defaultLayer>
     </ownedRepresentations>
     <ownedJavaExtensions qualifiedClassName="my.dsl.trafficlight.design.Services"/>
